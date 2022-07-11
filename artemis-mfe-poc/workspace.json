@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "base-components": "libs/base-components",
+    "child1": "apps/child1",
+    "child1-e2e": "apps/child1-e2e",
+    "child2": "apps/child2",
+    "child2-e2e": "apps/child2-e2e",
+    "mfe": "apps/mfe",
+    "mfe-e2e": "apps/mfe-e2e"
+  }
+}
