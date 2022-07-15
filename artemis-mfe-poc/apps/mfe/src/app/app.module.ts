@@ -23,7 +23,8 @@ import { RouterModule } from '@angular/router';
         },
         {
           path: '',
-          component: NxWelcomeComponent,
+          loadChildren: () =>
+            import('default-child/Module').then((m) => m.RemoteEntryModule),
         },
       ],
       { initialNavigation: 'enabledBlocking' }
